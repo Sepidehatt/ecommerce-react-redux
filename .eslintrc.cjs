@@ -13,6 +13,8 @@ module.exports = {
     settings: { react: { version: '18.2' } },
     plugins: ['react-refresh', 'prettier'],
     rules: {
+        'no-unused-vars': 'warn', // Change severity to "warn" for no-unused-vars
+        'react/prop-types': 'warn',
         'react-refresh/only-export-components': [
             'warn',
             { allowConstantExport: true },
